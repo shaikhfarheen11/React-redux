@@ -24,7 +24,6 @@ const counterSubscriber = () => {
 
 store.subscribe(counterSubscriber);
 
-
 for (let i = 0; i < 5; i++) {
     store.dispatch({ type: 'increment' });
 }
