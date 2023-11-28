@@ -37,5 +37,5 @@ for (let i = 0; i < 5; i++) {
 }
 
 store.dispatch({ type: 'decrement' });
-store.dispatch({ type: 'INCREMENTBY2' }); // Increases the counter by 2
-store.dispatch({ type: 'DECREMENTBY2' }); // Decreases the counter by 2
+store.dispatch({ type: 'INCREMENTBY2' }); 
+store.dispatch({ type: 'DECREMENTBY2' }); 
